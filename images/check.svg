@@ -8,4 +8,16 @@
 
     theBadge.addEventListener('click', logMyId);
 </script>
-<style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:20px;}</style></defs><title>check</title><polyline class="cls-1" points="7.11 74.25 73.54 141.47 206.4 7.03"/></svg>
+<style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:20px;}
+#check {
+    stroke-dasharray: 160%;
+    stroke-dashoffset: 200%;
+}
+
+#check:hover {
+    transition: all 0.5s ease-in-out; 
+    stroke-dashoffset: 0%;
+    
+}
+</style></defs><title>check</title><polyline class="cls-1" points="7.11 74.25 73.54 141.47 206.4 7.03"/>
+</svg>

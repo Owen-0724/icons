@@ -8,4 +8,17 @@
 
     theBadge.addEventListener('click', logMyId);
 </script>
+<style>
+#up {
+    transform: scale(1,0.1);
+
+}
+
+#up:hover {
+    transition: all 0.5s ease-in-out;
+    transform: scale(1,1);
+    fill: blue;
+    
+}
+</style>
 <title>up</title><rect x="68.16" y="46.82" width="15.32" height="153.18"/><polygon points="64.99 10.83 0 75.82 10.83 86.65 75.82 21.66 140.81 86.65 151.64 75.82 86.65 10.83 75.82 0 64.99 10.83"/></svg>

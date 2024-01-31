@@ -8,4 +8,17 @@
 
     theBadge.addEventListener('click', logMyId);
 </script>
+<style>
+#warning:hover {
+    animation: blink 1s;
+    animation-iteration-count: infinite;
+ 
+}
+
+@keyframes blink {
+    from {fill: black;}
+    to {fill: red;}
+}
+</style>
+
 <title>warning</title><path d="M218.79,281.36a18.79,18.79,0,0,1-37.58,0c0-10.17,8.48-18.93,18.65-18.93A19.12,19.12,0,0,1,218.79,281.36ZM216.53,100V240.11H183.47V100Z" transform="translate(-181.21 -100)"/></svg>
