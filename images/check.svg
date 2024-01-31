@@ -1,0 +1,11 @@
+<svg id="check" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 213.51 155.7"><defs>
+<script>
+    let theBadge = document.querySelector('#check');
+
+    function logMyId() {        
+    console.log('clicked on this element:', this.id);
+    }
+
+    theBadge.addEventListener('click', logMyId);
+</script>
+<style>.cls-1{fill:none;stroke:#000;stroke-miterlimit:10;stroke-width:20px;}</style></defs><title>check</title><polyline class="cls-1" points="7.11 74.25 73.54 141.47 206.4 7.03"/></svg>

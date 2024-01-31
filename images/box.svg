@@ -1,0 +1,11 @@
+<svg id="box" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+<script>
+    let theBadge = document.querySelector('#box');
+
+    function logMyId() {        
+    console.log('clicked on this element:', this.id);
+    }
+
+    theBadge.addEventListener('click', logMyId);
+</script>
+<title>box</title><path d="M300,300H100V100H300ZM120,280H280V120H120Z" transform="translate(-100 -100)"/></svg>

@@ -1,0 +1,11 @@
+<svg id="loading" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 199 200">
+<script>
+    let theBadge = document.querySelector('#loading');
+
+    function logMyId() {        
+    console.log('clicked on this element:', this.id);
+    }
+
+    theBadge.addEventListener('click', logMyId);
+</script>
+<title>loading</title><path d="M299.5,210H289.44a90,90,0,0,1-178.88,0H100.5a100,100,0,0,0,199,0Z" transform="translate(-100.5 -100)"/><path d="M110.56,190a90,90,0,0,1,178.88,0H299.5a100,100,0,0,0-199,0Z" transform="translate(-100.5 -100)"/></svg>
