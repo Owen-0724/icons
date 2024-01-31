@@ -8,4 +8,19 @@
 
     theBadge.addEventListener('click', logMyId);
 </script>
-<title>box</title><path d="M300,300H100V100H300ZM120,280H280V120H120Z" transform="translate(-100 -100)"/></svg>
+<style>
+#box:hover {
+    transition: all 0.5s ease-in-out; 
+    fill: aqua;
+    transform: scale(70%);
+}
+
+#box:active{
+    fill: blue;
+}
+
+</style>
+
+<title>box</title>
+
+<path d="M300,300H100V100H300ZM120,280H280V120H120Z" transform="translate(-100 -100)"/></svg>
