@@ -1,3 +1,7 @@
 .hidden {
     display: none;
 }
+
+.svgs object{
+    margin: 20px;
+}
