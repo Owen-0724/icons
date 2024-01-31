@@ -1,1 +1,11 @@
-<svg id="up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.64 200"><title>up</title><rect x="68.16" y="46.82" width="15.32" height="153.18"/><polygon points="64.99 10.83 0 75.82 10.83 86.65 75.82 21.66 140.81 86.65 151.64 75.82 86.65 10.83 75.82 0 64.99 10.83"/></svg>
+<svg id="up" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 151.64 200">
+<script>
+    let theBadge = document.querySelector('#up');
+
+    function logMyId() {        
+    console.log('clicked on this element:', this.id);
+    }
+
+    theBadge.addEventListener('click', logMyId);
+</script>
+<title>up</title><rect x="68.16" y="46.82" width="15.32" height="153.18"/><polygon points="64.99 10.83 0 75.82 10.83 86.65 75.82 21.66 140.81 86.65 151.64 75.82 86.65 10.83 75.82 0 64.99 10.83"/></svg>
